@@ -1,3 +1,2 @@
-# eJPTv2-notes
+# Page 1
 
-### This is my personal eJPTv2 notes, I may link some resources for extra information in particular subject, hope you enjoy it! 
