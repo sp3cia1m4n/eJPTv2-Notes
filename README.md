@@ -1,6 +1,3 @@
----
-layout: landing
----
 
 # 🔗 eJPTv2-notes
 
