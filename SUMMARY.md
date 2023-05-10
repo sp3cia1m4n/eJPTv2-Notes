@@ -1,3 +1,6 @@
 # Table of contents
 
 * [🔗 eJPTv2-notes](README.md)
+* [Assessment Methodologies: information gathering](assessment-methodologies-information-gathering/README.md)
+  * [Active Reconnaissance](assessment-methodologies-information-gathering/active-reconnaissance.md)
+  * [Passive Reconnaissance](assessment-methodologies-information-gathering/passive-reconnaissance.md)
