@@ -27,7 +27,7 @@ What is DNS Interrogation?
 DNS Interrogation is the process of enumerating DNS records for specifc domain, this process is very important to fetch IP address of a domain, sub domains, mail server addresses, and more. DNS Lookup \
 \
 `https://mxtoolbox.com/DNSLookup.aspx`\
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 What is Zone Transfer ?
 
