@@ -7,21 +7,32 @@ In this process, you will not be directly connected to a computer system. This p
 
 #### Website Recon & Footprinting
 
-all commands are here, if you want more explanation regarding the tools and website,&#x20;
+#### &#x20;Tools and websites  **:**
 
-> Commands :
+*   host :
 
-* host - Kali tool DNS lookup utility&#x20;
-* robots.txt - Search Engine Crawl
-* sitemaps.xml - Listing website content
-* builtwith - addons to identify different web technologies&#x20;
-* wappalyzer - addons to identify different web technologies&#x20;
-* whatweb - kali tool that is used to identify different web technologies&#x20;
+    kali tool DNS lookup utility\
+    usage: host \<url>\
+
+*   robots.txt :
+
+    Search Engine Crawl\
+    usage : https://\<url>/robots.txt
+* sitemaps.xml :\
+  &#x20; is xml file to list website contents
+* builtwith :\
+  addons to identify different web technologies&#x20;
+* wappalyzer : \
+  addons to identify different web technologies&#x20;
+* whatweb\
+  kali tool that is used to identify different web technologies&#x20;
 * httrack - website copier
 * Reverse DNS - reverse IP address to DNS
-* Whois - Kali and website tool is used to identifies who owns a domain and collect information about them like emails, addresses, especially if there don't activate the privacy protection \
-  Netcraft -  is tool to scan websites. \
-  DNSdumpster -&#x20;
+* Whois - Kali and website tool is used to identifies who owns a domain and collect information about them like emails, addresses, especially if there don't activate the privacy protection&#x20;
+* Netcraft -  is tool to scan websites.&#x20;
+* DNSdumpster&#x20;
+* Sublist3r\
+
 
 ***
 
@@ -43,15 +54,13 @@ all commands are here, if you want more explanation regarding the tools and webs
 
 ***
 
-> DNSDumpster ( website )
+DNSDumpster ( website )
 
 ![](<../../.gitbook/assets/Pasted image 20230415200917.png>)
 
-***
+#### Whois ( website - kali tool )  is used to identifies who owns a domain and collect information about them like emails, addresses, especially if there don't activate the privacy protection&#x20;
 
-#### WAF With wafw00f
-
-> wafw00f
+#### WAF With wafw00f ([wafw00f](https://github.com/EnableSecurity/wafw00f))&#x20;
 
 * Check firewall behind the website! it can detect mulitple firewall, very useful before using any scanning or footprinting tool
 * wafw00f \<url>
@@ -63,8 +72,18 @@ all commands are here, if you want more explanation regarding the tools and webs
 
 #### Subdomain Enumeration
 
-* SubFinder
-* Sublist3r
+* SubFinder\
+  \
+  is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. `subfinder` is built for doing one thing only - passive subdomain enumeration, and it does that very well.\
+  \
+  ![](../../.gitbook/assets/image.png)\
+
+* Sublist3r\
+  \
+  is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.\
+  \
+  \
+  ![](<../../.gitbook/assets/image (1).png>)
 
 ***
 
@@ -97,7 +116,7 @@ all commands are here, if you want more explanation regarding the tools and webs
 
 > **Spyse**_:_ is a search engine which can be used to identify internet assets and perform external reconnaissance easily.\
 > \
-> ![](<../../.gitbook/assets/image (1).png>)
+> ![](<../../.gitbook/assets/image (4).png>)
 
 ***
 
