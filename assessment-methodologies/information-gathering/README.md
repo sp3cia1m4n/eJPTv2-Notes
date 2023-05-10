@@ -1,4 +1,4 @@
-# Assessment Methodologies: information gathering
+# information gathering
 
 Information Gathering and getting to know the target systems is the first process in ethical hacking. Reconnaissance is a set of processes and techniques (Footprinting, Scanning & Enumeration) used to covertly discover and collect information about a target system.
 
