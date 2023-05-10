@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [🔗 eJPTv2-notes](README.md)
