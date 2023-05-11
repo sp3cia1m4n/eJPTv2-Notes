@@ -50,15 +50,15 @@ What is Zone Transfer ?
 
 ## Network Discovery 
 
-> What is Nmap used for?
+ What is Nmap used for?
 Nmap **allows you to scan your network and discover not only everything connected to it, but also a wide variety of information about what's connected, what services each host is operating, and so on**. It allows a large number of scanning techniques, such as UDP, TCP connect (), TCP SYN (half-open), and FTP.
 
 
 
-> What is arp command in windows ?
+ What is arp command in windows ?
 arp -a: This command is used to **display the ARP table for a particular IP address**. It also shows all the entries of the ARP cache or table. arp -g: This command works the same as the arp -a command. arp -d: This command is used when you want to delete an entry from the ARP table for a particular interface.
 
-> What is netdiscover?
+ What is netdiscover?
  Netdiscover is **an active/passive address reconnaissance tool**, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.
 
 
