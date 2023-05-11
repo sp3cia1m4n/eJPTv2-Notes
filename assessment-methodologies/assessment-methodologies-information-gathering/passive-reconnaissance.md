@@ -4,73 +4,66 @@
 
 In this process, you will not be directly connected to a computer system. This process is used to gather essential information without ever interacting with the target systems.
 
-
 ### Website Recon & Footprinting
- 
-<h5><p align="center">
-
 
 \
-Tools and websites  **:** 
-| Tool & Website  | Used for |        usage        |
-| :---:| :---: |:---:|
-|**host** |  DNS Lookup utility |                 host \<url>     |
-|     **robots.txt**           |       Search Engine Crawl        |  https://\<url>/robots.txt           |
-|   **sitemaps.xml**            |     xml file to list website contents          |     https://\<url>/sitemap.xml        |
-|         **builtwith**                |       Web technologies Recon    |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]            |
-|           **wappalyzer**             |       Web technologies Recon    |   install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]              |
-|                 **whatweb**       |       Web technologies Recon     |     whatweb \<<mark style="color:red;">url</mark>\>             |
-|              **httrack**          |        Website copier   |     website <[how to start](https://www.httrack.com/html/step.html)>            |
-|                 **Reverse DNS**       |      Reverse IP address to DNS     |     website [[link](https://mxtoolbox.com/ReverseLookup.aspx)]             |
-|         **Whois**               |     Website Recon          |       **whois** \<url>  - website \[[link](https://www.whois.com)]            |
-|      **Netcraft**                |    Website Recon          |          website \[[link](https:\/\/www.netcraft.com/)\]     |
-|        **DNSdumpster**          |    Website Recon         |       dnsdumpster -d <url> - website \[[link](https:\/\/dnsdumpster.com/)\]            |
-|        **Sublist3r**            |    Subdomain Recon  |  sublist3r -d \<url>     |                                                                          |
-|           **wafw00f**           |    Website Application Firewall Recon       |          wafw00f  \<url> -a or --findall          |
-|      **SubFinder**              |   Subdomain Recon        |                                           subfinder -d <url>                                                            |
-|          **AMASS**              |       Website & Subdomain Recon    |         Massive Tool Tutorial    \[[link](https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md)\]                                             
-|           **SubBrute**          |     Subdomain & DNS      |                  python3 subbrute.py <URL> -o <OUTPUT NAME>                                                                                                         |
-|         **Knock**               |     Subdomain Recon      |                   python3  knockpy.py <URL>
-|        **AltDNS**               |    Subdomain Recon       |                    altdns -i <subdomains.txt> -o data_output -w words.txt -r -s results_output.txt      |                                                          
-|        **Haktrails**            |    Website & Subdomain Recon       |                 cat domains.txt \| haktrails subdomains |
-                                                                                                              
+**Tools and websites :**\
+\
+Tools and websites **:**
 
+|  Tool & Website  |              Used for              |                                               usage                                               |
+| :--------------: | :--------------------------------: | :-----------------------------------------------------------------------------------------------: |
+|     **host**     |         DNS Lookup utility         |                                            host \<url>                                            |
+|  **robots.txt**  |         Search Engine Crawl        |                                     https://\<url>/robots.txt                                     |
+| **sitemaps.xml** |  xml file to list website contents |                                     https://\<url>/sitemap.xml                                    |
+|   **builtwith**  |       Web technologies Recon       |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)]      |
+|  **wappalyzer**  |       Web technologies Recon       |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)]      |
+|    **whatweb**   |       Web technologies Recon       |                           whatweb <<mark style="color:red;">url</mark>>                           |
+|    **httrack**   |           Website copier           |                  website <[how to start](https://www.httrack.com/html/step.html)>                 |
+|  **Reverse DNS** |      Reverse IP address to DNS     |                    website \[[link](https://mxtoolbox.com/ReverseLookup.aspx)]                    |
+|     **Whois**    |            Website Recon           |                    **whois** \<url> - website \[[link](https://www.whois.com)]                    |
+|   **Netcraft**   |            Website Recon           |                            website \[[link](https://www.netcraft.com/)]                           |
+|  **DNSdumpster** |            Website Recon           |                    dnsdumpster -d - website \[[link](https://dnsdumpster.com/)]                   |
+|   **Sublist3r**  |           Subdomain Recon          |                                        sublist3r -d \<url>                                        |
+|    **wafw00f**   | Website Application Firewall Recon |                                   wafw00f \<url> -a or --findall                                  |
+|   **SubFinder**  |           Subdomain Recon          |                                            subfinder -d                                           |
+|     **AMASS**    |      Website & Subdomain Recon     | Massive Tool Tutorial \[[link](https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md)] |
+|   **SubBrute**   |           Subdomain & DNS          |                                       python3 subbrute.py -o                                      |
+|     **Knock**    |           Subdomain Recon          |                                         python3 knockpy.py                                        |
+|    **AltDNS**    |           Subdomain Recon          |         altdns -i \<subdomains.txt> -o data\_output -w words.txt -r -s results\_output.txt        |
+|   **Haktrails**  |      Website & Subdomain Recon     |                              cat domains.txt \| haktrails subdomains                              |
 
 #### Website footprinting tools
 
 Netcraft
 
-> **Netcraft** - provides internet security services for a large number of use cases, including cybercrime detection and disruption, application testing and PCI scanning.
- ![](<../../.gitbook/assets/Pasted image 20230415162847.png>)
+> **Netcraft** - provides internet security services for a large number of use cases, including cybercrime detection and disruption, application testing and PCI scanning. ![](<../../.gitbook/assets/Pasted image 20230415162847.png>)
 
 ***
 
-> **DNSdumpster**:  is an online passive scanning tool to obtain information about domains, block addresses, emails, and all kind of information DNS related.
+> **DNSdumpster**: is an online passive scanning tool to obtain information about domains, block addresses, emails, and all kind of information DNS related.
 >
 > \
-> **Tool** :&#x20;
+> **Tool** :
 
 ***
 
-> **Website :**&#x20;
+> **Website :**
 
-![](<../../.gitbook/assets/Pasted image 20230415200917.png>)
-
-
+![](<../../.gitbook/assets/Pasted image 20230415200917 (1).png>)
 
 **Whois** :\
-is used to identifies who owns a domain and collect information about them like emails, addresses, especially if there don't activate the privacy protection&#x20;
+is used to identifies who owns a domain and collect information about them like emails, addresses, especially if there don't activate the privacy protection
 
-**website** :&#x20;
+**website** :
 
 ![](<../../.gitbook/assets/image (2).png>)\
 \
-**tool** : \
+**tool** :\
 \
-![](<../../.gitbook/assets/image (1).png>)\
+![](<../../.gitbook/assets/image (1).png>)\\
 
-
-**WAF With wafw00f**&#x20;
+**WAF With wafw00f**
 
 * Check firewall behind the website! it can detect multiple firewall, very useful before using any scanning or foot printing tool\
   \
@@ -83,8 +76,7 @@ is used to identifies who owns a domain and collect information about them like 
 
 is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. `subfinder` is built for doing one thing only - passive subdomain enumeration, and it does that very well.\
 \
-![](../../.gitbook/assets/image.png)\
-
+![](../../.gitbook/assets/image.png)\\
 
 **Sublist3r**\
 is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.\
@@ -107,7 +99,7 @@ is a python tool designed to enumerate subdomains of websites using OSINT. It he
 
 ***
 
-> **WayBackMachine**:  what is the Wayback Machine? The Internet Archive Wayback Machine is a service that allows people to visit archived versions of Web sites
+> **WayBackMachine**: what is the Wayback Machine? The Internet Archive Wayback Machine is a service that allows people to visit archived versions of Web sites
 >
 > >
 
@@ -123,18 +115,16 @@ is a python tool designed to enumerate subdomains of websites using OSINT. It he
 
 > **Spyse**_:_ is a search engine which can be used to identify internet assets and perform external reconnaissance easily.\
 > \
-> ![](<../../.gitbook/assets/image (4).png>)
+> ![](<../../.gitbook/assets/image (5).png>)
 
 ***
 
 #### Leaked Password Databases
 
-> **haveibeenpwned?**  :  allows you to search across multiple data breaches to see if your email address or phone number has been compromised.
+> **haveibeenpwned?** : allows you to search across multiple data breaches to see if your email address or phone number has been compromised.
 >
-> > ![](<../../.gitbook/assets/Pasted image 20230415202549.png>)
+> > <img src="../../.gitbook/assets/Pasted image 20230415202549.png" alt="" data-size="original">
 
->
->
 > **DeHashed** : is a hacked-database search-engine created for Security Analysts, Journalists, Security Companies, and everyday people to help secure accounts and provide insight on database breaches and account leaks. Protect yourself before it's too late, don't wait until you're hacked.
 >
 > **What can I search for?**
@@ -145,4 +135,4 @@ is a python tool designed to enumerate subdomains of websites using OSINT. It he
 >
 > Simply contact us and we will remove your data. However, removing your data from our search engine will not remove it from others. Your data will still be public, So you must change your passwords!
 >
-> > ![](<../../.gitbook/assets/Pasted image 20230415204314 (1).png>)
+> > <img src="../../.gitbook/assets/Pasted image 20230415204314.png" alt="" data-size="original">
