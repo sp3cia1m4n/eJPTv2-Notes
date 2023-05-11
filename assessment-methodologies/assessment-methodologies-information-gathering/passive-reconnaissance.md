@@ -22,11 +22,6 @@ Tools and websites  **:**
 |                 **whatweb**       |       Web technologies Recon     |     whatweb \<<mark style="color:red;">url</mark>\>             |
 |              **httrack**          |        Website copier   |     website <[how to start](https://www.httrack.com/html/step.html)>            |
 |                 **Reverse DNS**       |      Reverse IP address to DNS     |     website [[link](https://mxtoolbox.com/ReverseLookup.aspx)]             |
-
- </p></h5>
-
-| Tool & Website  | Used for |        usage        |
-| :---: | :---: | :---: |
 |         **Whois**               |     Website Recon          |       **whois** \<url>  - website \[[link](https://www.whois.com)]            |
 |      **Netcraft**                |    Website Recon          |          website \[[link](https:\/\/www.netcraft.com/)\]     |
 |        **DNSdumpster**          |    Website Recon         |       dnsdumpster -d <url> - website \[[link](https:\/\/dnsdumpster.com/)\]            |
