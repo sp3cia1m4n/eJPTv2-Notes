@@ -16,7 +16,7 @@ Tools & Websites
 | **hosts file linux** | Linux File for Mapping Hostnames to IP Addresses | cat /etc/hosts |
 | **hosts file windows** | Windows File for Mapping Hostnames to IP Addresses |  type c:\Windows\System32\drivers\etc\hosts |  
 |  **nmap** | Port Scanning Tool & Host Discovery | sudo nmap \[ -sn ] ip/cidr \[ 192.168.1.0/24 ]
-| arp-scan | Host Discovery | arp-scan \[ -l ] 
+| arp-scan | Host Discovery | arp-scan \[ -l ] |
 
 ### DNS Zone Transfer
 
