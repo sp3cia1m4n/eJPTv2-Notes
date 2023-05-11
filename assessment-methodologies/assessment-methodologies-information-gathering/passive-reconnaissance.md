@@ -9,78 +9,30 @@ In this process, you will not be directly connected to a computer system. This p
 
 \
 Tools and websites  **:**
-
-*   **host** : kali tool DNS lookup utility
-
-    \
-    **usage**: host \<url>\
-
-*   **robots.txt** : Search Engine Crawl\
-
-
-    **usage** : https://\<url>/robots.txt\
-
-* **sitemaps.xml** : is xml file to list website contents\
-  \
-  **usage** : https://\<url>/robots.txt\
-
-* **builtwith** : addons to identify different web technologies \
-  \
-  **usage** :  install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)] \
-
-* **wappalyzer** : addons to identify different web technologies \
-  \
-  **usage** :  install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)] \
-
-* **whatweb** : kali tool that is used to identify different web technologies \
-  \
-  **usage** : whatweb <<mark style="color:red;">url</mark>> \
-
-* **httrack** : website copier ( to copy whole or page of a website ) \
-
-* **usage** : website <[how to start](https://www.httrack.com/html/step.html)>\
-
-* **Reverse DNS** - reverse IP address to DNS \
-  \
-  **usage** :  website \[[link](https://mxtoolbox.com/ReverseLookup.aspx)]\
-
-* **Whois** - website recon \
-  \
-  &#x20;**usage** : **whois** \<url>  || website \[[link](https://www.whois.com)]&#x20;
-*
-* **Netcraft** -  is tool to scan websites. \
-  \
-  **usage** :  website \[[link](https://www.netcraft.com/)]\
-
-* **DNSdumpster** - is website and tool for dns recon\
-  \
-  &#x20;**usage** : dnsdumpster -d \<url>  || website \[[link](https://dnsdumpster.com/)] \
-  &#x20;
-* **Sublist3r** - subdomain recon tool \
-  \
-  **usage** : sublist3r -d \<url> \
-
-* wafw00f - is website application firewall\
-  \
-  **usage** : wafw00f  \<url> -a or --findall # test all firewall applications  \
-
-* **SubFinder** - subdomain recon tool \
-
-* [**AMASS**](https://github.com/owasp-amass/amass) - powerful website recon tool  \
-
-*   [**SubBrute**](https://github.com/TheRook/subbrute) - subdomain recon
+[
+| Tool & Website  | Used for |        usage        |
+| ----- | ------------- |--------------------------|
+|**host** |  DNS Lookup utility |                 host \<url>     |
+|     **robots.txt**           |       Search Engine Crawl        |  https://\<url>/robots.txt           |
+|   **sitemaps.xml**            |     xml file to list website contents          |     https://\<url>/sitemap.xml        |
+|         **builtwith**                |       addons to identify different web technologies    |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]            |
+|           **wappalyzer**             |       addons to identify different web technologies    |   install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]              |
+|                 **whatweb**       |       kali tool that is used to identify different web technologies     |     whatweb \<<mark style="color:red;">url</mark>\>             |
+|              **httrack**          |        website copier ( to copy whole or page of a website )   |     website <[how to start](https://www.httrack.com/html/step.html)>            |
+|                 **Reverse DNS**       |      reverse IP address to DNS     |     website [[link](https://mxtoolbox.com/ReverseLookup.aspx)]\             |
+|         **Whois**               |      Website Recon        |       **whois** \<url>  \|\| website \[[link](https:\/\/www.whois.com)\]\            |
+|     **Netcraft**                   |    Website Recon       |          website \[[link](https://www.netcraft.com/)]\        |
+|        **DNSdumpster**                |    website and tool for dns recon        |       dnsdumpster -d \<url>  \|\| website \[[link](https://dnsdumpster.com/)] \           |
+|        **Sublist3r**                 |    subdomains recon tool       |  sublist3r -d \<url> \                |
+|           **wafw00f**             |    Website Application Firewall Detector       |          wafw00f  \<url> -a or --findall # test all firewall applications         |
+|      **SubFinder**                  |   subdomain recon tool        |                  |
+|          **AMASS**              |           |                  |
+|           **SubBrute**             |           |                  |
+|         **Knock**               |           |                  |
+|        **AltDNS**                |           |                  |
+|        **Haktrails**                |           |                  |
 
 
-*   [**Knock**](https://github.com/guelfoweb/knock) - subdomain recon
-
-
-*   **AltDNS** - subdomain recon
-
-
-*   **Axiom** - subdomain recon
-
-
-* **Haktrails** - subdomain recon
 
 
 
