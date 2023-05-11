@@ -28,7 +28,7 @@ Tools and websites  **:**
   \
   **usage** :  install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)] \
 
-* wappalyzer : addons to identify different web technologies \
+* **wappalyzer** : addons to identify different web technologies \
   \
   **usage** :  install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)] \
 
@@ -37,8 +37,8 @@ Tools and websites  **:**
   **usage** : whatweb <<mark style="color:red;">url</mark>> \
 
 * **httrack** : website copier ( to copy whole or page of a website ) \
-  \
-  **usage** : website <[how to start](https://www.httrack.com/html/step.html)>\
+
+* **usage** : website <[how to start](https://www.httrack.com/html/step.html)>\
 
 * **Reverse DNS** - reverse IP address to DNS \
   \
@@ -46,41 +46,41 @@ Tools and websites  **:**
 
 * **Whois** - website recon \
   \
-  &#x20;**usage** : **whois** \<url>  || website \[[link](https://www.whois.com)] \
-
+  &#x20;**usage** : **whois** \<url>  || website \[[link](https://www.whois.com)]&#x20;
+*
 * **Netcraft** -  is tool to scan websites. \
   \
   **usage** :  website \[[link](https://www.netcraft.com/)]\
 
-* DNSdumpster - is website and tool for dns recon\
+* **DNSdumpster** - is website and tool for dns recon\
   \
-  &#x20;usage : dnsdumpster -d \<url>  || website \[[link](https://dnsdumpster.com/)] \
+  &#x20;**usage** : dnsdumpster -d \<url>  || website \[[link](https://dnsdumpster.com/)] \
   &#x20;
-* Sublist3r - subdomain recon tool \
+* **Sublist3r** - subdomain recon tool \
   \
-  usage : sublist3r -d \<url> \
+  **usage** : sublist3r -d \<url> \
 
 * wafw00f - is website application firewall\
   \
-  usage : wafw00f  \<url> -a or --findall # test all firewall applications  \
+  **usage** : wafw00f  \<url> -a or --findall # test all firewall applications  \
 
-* SubFinder - subdomain recon tool \
+* **SubFinder** - subdomain recon tool \
 
-* AMASS - website recon tool  \
+* [**AMASS**](https://github.com/owasp-amass/amass) - powerful website recon tool  \
 
-*   [SubBrute](https://github.com/TheRook/subbrute)&#x20;
-
-
-*   Knock
+*   [**SubBrute**](https://github.com/TheRook/subbrute) - subdomain recon
 
 
-*   AltDNS
+*   [**Knock**](https://github.com/guelfoweb/knock) - subdomain recon
 
 
-*   Axiom
+*   **AltDNS** - subdomain recon
 
 
-* Haktrails
+*   **Axiom** - subdomain recon
+
+
+* **Haktrails** - subdomain recon
 
 
 
