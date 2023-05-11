@@ -10,7 +10,7 @@ Tools & Websites
 | :--------------: | :--------------------------------: | :-----------------------------------------------------------------------------------------------: |
 |     **dig**     |         DNS Lookup utility         |                                          dig axfr @\<dns server> <URL>                                            |
 |  **fierce.txt**  |         DNS Lookup utility        |                                    fierce --domain <URL>
-| **dnsenum** |   DNS Lookup utility |                                     ./dnsenum.sh \ [ -d ] <domain> [-f <file] [-n <dns server>] [-c]                                    |
+| **dnsenum** |   DNS Lookup utility |                                     ./dnsenum.sh \ [ -d ] <domain> [-f \<file> ] [-n \<dns server>] [ -c ]                                    |
 |   **dnsenum**  |       DNS Lookup utility       |      dnsrecon \[ -d ] \<URL>      |
 |  **dnsmap**  |       DNS Lookup utilty      |      dnsmap <targetDomain> \[ -w ] wordlist.txt \[ -r ] /tmp/results.txt
 | **hosts file linux** | Linux File for Mapping Hostnames to IP Addresses | cat /etc/hosts |
