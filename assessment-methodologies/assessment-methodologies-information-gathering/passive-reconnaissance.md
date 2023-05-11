@@ -2,16 +2,15 @@
 
 ### Passive Reconnaissance
 
-In this process, you will not be directly connected to a computer system. This process is used to gather essential information without ever interacting with the target systems.\
+In this process, you will not be directly connected to a computer system. This process is used to gather essential information without ever interacting with the target systems.
 
 
 ### Website Recon & Footprinting
 
 \
-Tools and websites  **:**
-[
+Tools and websites  **:** 
 | Tool & Website  | Used for |        usage        |
-| ----- | ------------- |--------------------------|
+| :---:| :---: |:---:|
 |**host** |  DNS Lookup utility |                 host \<url>     |
 |     **robots.txt**           |       Search Engine Crawl        |  https://\<url>/robots.txt           |
 |   **sitemaps.xml**            |     xml file to list website contents          |     https://\<url>/sitemap.xml        |
@@ -19,21 +18,23 @@ Tools and websites  **:**
 |           **wappalyzer**             |       addons to identify different web technologies    |   install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]              |
 |                 **whatweb**       |       kali tool that is used to identify different web technologies     |     whatweb \<<mark style="color:red;">url</mark>\>             |
 |              **httrack**          |        website copier ( to copy whole or page of a website )   |     website <[how to start](https://www.httrack.com/html/step.html)>            |
-|                 **Reverse DNS**       |      reverse IP address to DNS     |     website [[link](https://mxtoolbox.com/ReverseLookup.aspx)]\             |
-|         **Whois**               |      Website Recon        |       **whois** \<url>  \|\| website \[[link](https:\/\/www.whois.com)\]\            |
-|     **Netcraft**                   |    Website Recon       |          website \[[link](https://www.netcraft.com/)]\        |
-|        **DNSdumpster**                |    website and tool for dns recon        |       dnsdumpster -d \<url>  \|\| website \[[link](https://dnsdumpster.com/)] \           |
-|        **Sublist3r**                 |    subdomains recon tool       |  sublist3r -d \<url> \                |
-|           **wafw00f**             |    Website Application Firewall Detector       |          wafw00f  \<url> -a or --findall # test all firewall applications         |
-|      **SubFinder**                  |   subdomain recon tool        |                  |
-|          **AMASS**              |           |                  |
-|           **SubBrute**             |           |                  |
-|         **Knock**               |           |                  |
-|        **AltDNS**                |           |                  |
-|        **Haktrails**                |           |                  |
+|                 **Reverse DNS**       |      reverse IP address to DNS     |     website [[link](https://mxtoolbox.com/ReverseLookup.aspx)]             |
 
 
 
+| Tool & Website  | Used for |        usage        |
+| --- | --- | --- |
+|         **Whois**               |      Website Recon        |       **whois** \<url>  - website \[[link](https://www.whois.com)]            |
+|      **Netcraft**                |    Website Recon          |          website /[[link/](https:\/\/www.netcraft.com/)]/     |
+|        **DNSdumpster**          |    website and tool for dns recon        |       dnsdumpster -d <url> - website \[[link](https:\/\/dnsdumpster.com/)\]            |
+|        **Sublist3r**            |    subdomains recon tool  |  sublist3r -d \<url> \     |                                                                          |
+|           **wafw00f**           |    Website Application Firewall Detector       |          wafw00f  <url> -a or --findall -- test all firewall applications         |
+|      **SubFinder**              |   subdomain recon tool        |                                                                                                      |
+|          **AMASS**              |       d    |                      d                                                                                                     |                                
+|           **SubBrute**          |     d      |                  d                                                                                                           |
+|         **Knock**               |     d      |                     d                                                                                                         |
+|        **AltDNS**               |    d       |                    d                                                                                                            |
+|        **Haktrails**            |    d       |                  d                                                                                                               |
 
 
 #### Website footprinting tools
