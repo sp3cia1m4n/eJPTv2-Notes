@@ -6,6 +6,9 @@ In this process, you will not be directly connected to a computer system. This p
 
 
 ### Website Recon & Footprinting
+ 
+<h5><p align="center">
+
 
 \
 Tools and websites  **:** 
@@ -14,27 +17,28 @@ Tools and websites  **:**
 |**host** |  DNS Lookup utility |                 host \<url>     |
 |     **robots.txt**           |       Search Engine Crawl        |  https://\<url>/robots.txt           |
 |   **sitemaps.xml**            |     xml file to list website contents          |     https://\<url>/sitemap.xml        |
-|         **builtwith**                |       addons to identify different web technologies    |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]            |
-|           **wappalyzer**             |       addons to identify different web technologies    |   install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]              |
-|                 **whatweb**       |       kali tool that is used to identify different web technologies     |     whatweb \<<mark style="color:red;">url</mark>\>             |
-|              **httrack**          |        website copier ( to copy whole or page of a website )   |     website <[how to start](https://www.httrack.com/html/step.html)>            |
-|                 **Reverse DNS**       |      reverse IP address to DNS     |     website [[link](https://mxtoolbox.com/ReverseLookup.aspx)]             |
+|         **builtwith**                |       Web technologies Recon    |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]            |
+|           **wappalyzer**             |       Web technologies Recon    |   install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)\]              |
+|                 **whatweb**       |       Web technologies Recon     |     whatweb \<<mark style="color:red;">url</mark>\>             |
+|              **httrack**          |        Website copier   |     website <[how to start](https://www.httrack.com/html/step.html)>            |
+|                 **Reverse DNS**       |      Reverse IP address to DNS     |     website [[link](https://mxtoolbox.com/ReverseLookup.aspx)]             |
 
-
+ </p></h5>
 
 | Tool & Website  | Used for |        usage        |
-| --- | --- | --- |
-|         **Whois**               |      Website Recon        |       **whois** \<url>  - website \[[link](https://www.whois.com)]            |
-|      **Netcraft**                |    Website Recon          |          website /[[link/](https:\/\/www.netcraft.com/)]/     |
-|        **DNSdumpster**          |    website and tool for dns recon        |       dnsdumpster -d <url> - website \[[link](https:\/\/dnsdumpster.com/)\]            |
-|        **Sublist3r**            |    subdomains recon tool  |  sublist3r -d \<url> \     |                                                                          |
-|           **wafw00f**           |    Website Application Firewall Detector       |          wafw00f  <url> -a or --findall -- test all firewall applications         |
-|      **SubFinder**              |   subdomain recon tool        |                                                                                                      |
-|          **AMASS**              |       d    |                      d                                                                                                     |                                
-|           **SubBrute**          |     d      |                  d                                                                                                           |
-|         **Knock**               |     d      |                     d                                                                                                         |
-|        **AltDNS**               |    d       |                    d                                                                                                            |
-|        **Haktrails**            |    d       |                  d                                                                                                               |
+| :---: | :---: | :---: |
+|         **Whois**               |     Website Recon          |       **whois** \<url>  - website \[[link](https://www.whois.com)]            |
+|      **Netcraft**                |    Website Recon          |          website \[[link](https:\/\/www.netcraft.com/)\]     |
+|        **DNSdumpster**          |    Website Recon         |       dnsdumpster -d <url> - website \[[link](https:\/\/dnsdumpster.com/)\]            |
+|        **Sublist3r**            |    Subdomain Recon  |  sublist3r -d \<url>     |                                                                          |
+|           **wafw00f**           |    Website Application Firewall Recon       |          wafw00f  \<url> -a or --findall          |
+|      **SubFinder**              |   Subdomain Recon        |                                           subfinder -d <url>                                                            |
+|          **AMASS**              |       Website & Subdomain Recon    |         Massive Tool Tutorial    \[[link](https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md)\]                                             
+|           **SubBrute**          |     Subdomain & DNS      |                  python3 subbrute.py <URL> -o <OUTPUT NAME>                                                                                                         |
+|         **Knock**               |     Subdomain Recon      |                   python3  knockpy.py <URL>
+|        **AltDNS**               |    Subdomain Recon       |                    altdns -i <subdomains.txt> -o data_output -w words.txt -r -s results_output.txt      |                                                          
+|        **Haktrails**            |    Website & Subdomain Recon       |                 cat domains.txt \| haktrails subdomains |
+                                                                                                              
 
 
 #### Website footprinting tools
