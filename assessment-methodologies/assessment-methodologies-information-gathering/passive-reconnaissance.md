@@ -23,16 +23,16 @@ In this process, you will not be directly connected to a computer system. This p
 |  **Reverse DNS** |      Reverse IP address to DNS     |                    website \[[link](https://mxtoolbox.com/ReverseLookup.aspx)]                    |
 |     **Whois**    |            Website Recon           |                    **whois** \<URL> - website \[[link](https://www.whois.com)]                    |
 |   **Netcraft**   |            Website Recon           |                            website \[[link](https://www.netcraft.com/)]                           |
-|  **DNSdumpster** |            Website Recon           |                    dnsdumpster -d - website \[[link](https://dnsdumpster.com/)]                   |
-|   **Sublist3r**  |           Subdomain Recon          |                                        sublist3r -d \<URL>                                        |
-|    **wafw00f**   | Website Application Firewall Recon |                                   wafw00f \<URL> -a or --findall                                  |
-|   **SubFinder**  |           Subdomain Recon          |                                            subfinder -d <URL>                                     |
+|  **DNSdumpster** |            Website Recon           |                    dnsdumpster \[-d] \<URL> \ OR website \[[link](https://dnsdumpster.com/)]                   |
+|   **Sublist3r**  |           Subdomain Recon          |                                        sublist3r \[-d] \<URL>                                        |
+|    **wafw00f**   | Website Application Firewall Recon |                                   wafw00f \<URL>\[ -a ] \[ --findall ]                                  |
+|   **SubFinder**  |           Subdomain Recon          |                                            subfinder \[-d] <URL>                                     |
 |     **AMASS**    |      Website & Subdomain Recon     | Massive Tool Tutorial \[[link](https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md)] |
-|   **SubBrute**   |           Subdomain & DNS          |                                       python3 subbrute.py -o                                      |
-|     **Knock**    |           Subdomain Recon          |                                         python3 knockpy.py                                        |
-|    **AltDNS**    |           Subdomain Recon          |         altdns -i \<subdomains.txt> -o data\_output -w words.txt -r -s results\_output.txt        |
+|   **SubBrute**   |           Subdomain & DNS          |                                       python3 subbrute.py \[-o]                                      |
+|     **Knock**    |           Subdomain Recon          |                                         python3 knockpy.py  <URL>                                      |
+|    **AltDNS**    |           Subdomain Recon          |         altdns \[-i] \<subdomains.txt> \[-o] data\_output \[-w] words.txt \[-r] \[-s] results\_output.txt        |
 |   **Haktrails**  |      Website & Subdomain Recon     |                              cat domains.txt \| haktrails subdomains                              |
-|DNS Recon         | Website & DNS Recon                | dnsrecon -d \<URL>                                                                                | 
+|DNS Recon         | Website & DNS Recon                | dnsrecon \[-d] \<URL>                                                                                | 
 #### Website footprinting tools
 
 Netcraft
