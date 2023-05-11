@@ -42,8 +42,7 @@ Tools and websites  **:**
 Netcraft
 
 > **Netcraft** - provides internet security services for a large number of use cases, including cybercrime detection and disruption, application testing and PCI scanning.
->
-> > ![](<../../.gitbook/assets/Pasted image 20230415162847.png>)
+ ![](<../../.gitbook/assets/Pasted image 20230415162847.png>)
 
 ***
 
