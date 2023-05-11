@@ -1,10 +1,14 @@
 # Active Reconnaissance
 
 ### Active Reconnaissance
-
+`
 In this process, you will directly interact with the computer system to gain information. This information can be relevant and accurate. But there is a risk of getting detected if you are planning active reconnaissance without permission. If you are detected, then system admin can take severe action against you and trail your subsequent activities.\
+`
 
-Tools & Websites 
+
+
+
+### Tools & Websites 
 
 |  Tool & Website  |              Used for              |                                               usage                                               |
 | :--------------: | :--------------------------------: | :-----------------------------------------------------------------------------------------------: |
@@ -19,7 +23,7 @@ Tools & Websites
 | arp-scan | Host Discovery | arp-scan \[ -l ] |
 
 ### DNS Zone Transfer
-
+```
 What is #DNS ( Domain Name System ) is a protocol that is used to resolve domain names/hostnames to IP addresses. \`\`
 
 * DNS Server ( nameserver) is like a telephone directory that contains domain names and their corresponding IP addressees.
@@ -34,12 +38,15 @@ What is #DNS ( Domain Name System ) is a protocol that is used to resolve domain
 * SOA - Domain authority
 * SRV - Service records.
 * PTR - Resolves an IP Address to hostname
-
+```
+ ```
 What is DNS Interrogation?
 
 DNS Interrogation is the process of enumerating DNS records for specifc domain, this process is very important to fetch IP address of a domain, sub domains, mail server addresses, and more. DNS Lookup \
-\
-`https://mxtoolbox.com/DNSLookup.aspx`\
+```
+`https://mxtoolbox.com/DNSLookup.aspx`
+ 
+ 
 ![](<../../.gitbook/assets/image (2) (1).png>)
 
 What is Zone Transfer ?
