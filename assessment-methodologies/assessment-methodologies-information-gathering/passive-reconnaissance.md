@@ -6,33 +6,33 @@ In this process, you will not be directly connected to a computer system. This p
 
 ### Website Recon & Footprinting
 
-\
-**Tools and websites :**\
-\
-Tools and websites **:**
+
+<h3>Tools and Websites :</h3>
+
+
 
 |  Tool & Website  |              Used for              |                                               usage                                               |
 | :--------------: | :--------------------------------: | :-----------------------------------------------------------------------------------------------: |
-|     **host**     |         DNS Lookup utility         |                                            host \<url>                                            |
-|  **robots.txt**  |         Search Engine Crawl        |                                     https://\<url>/robots.txt                                     |
-| **sitemaps.xml** |  xml file to list website contents |                                     https://\<url>/sitemap.xml                                    |
+|     **host**     |         DNS Lookup utility         |                                            host \<URL>                                            |
+|  **robots.txt**  |         Search Engine Crawl        |                                     https://\<URL>/robots.txt                                     |
+| **sitemaps.xml** |  xml file to list website contents |                                     https://\<URL>/sitemap.xml                                    |
 |   **builtwith**  |       Web technologies Recon       |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)]      |
 |  **wappalyzer**  |       Web technologies Recon       |      install in firefox \[[link](https://addons.mozilla.org/en-US/firefox/addon/builtwith/)]      |
-|    **whatweb**   |       Web technologies Recon       |                           whatweb <<mark style="color:red;">url</mark>>                           |
+|    **whatweb**   |       Web technologies Recon       |                           whatweb <<mark style="color:red;">URL</mark>>                           |
 |    **httrack**   |           Website copier           |                  website <[how to start](https://www.httrack.com/html/step.html)>                 |
 |  **Reverse DNS** |      Reverse IP address to DNS     |                    website \[[link](https://mxtoolbox.com/ReverseLookup.aspx)]                    |
-|     **Whois**    |            Website Recon           |                    **whois** \<url> - website \[[link](https://www.whois.com)]                    |
+|     **Whois**    |            Website Recon           |                    **whois** \<URL> - website \[[link](https://www.whois.com)]                    |
 |   **Netcraft**   |            Website Recon           |                            website \[[link](https://www.netcraft.com/)]                           |
 |  **DNSdumpster** |            Website Recon           |                    dnsdumpster -d - website \[[link](https://dnsdumpster.com/)]                   |
-|   **Sublist3r**  |           Subdomain Recon          |                                        sublist3r -d \<url>                                        |
-|    **wafw00f**   | Website Application Firewall Recon |                                   wafw00f \<url> -a or --findall                                  |
-|   **SubFinder**  |           Subdomain Recon          |                                            subfinder -d                                           |
+|   **Sublist3r**  |           Subdomain Recon          |                                        sublist3r -d \<URL>                                        |
+|    **wafw00f**   | Website Application Firewall Recon |                                   wafw00f \<URL> -a or --findall                                  |
+|   **SubFinder**  |           Subdomain Recon          |                                            subfinder -d <URL>                                     |
 |     **AMASS**    |      Website & Subdomain Recon     | Massive Tool Tutorial \[[link](https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md)] |
 |   **SubBrute**   |           Subdomain & DNS          |                                       python3 subbrute.py -o                                      |
 |     **Knock**    |           Subdomain Recon          |                                         python3 knockpy.py                                        |
 |    **AltDNS**    |           Subdomain Recon          |         altdns -i \<subdomains.txt> -o data\_output -w words.txt -r -s results\_output.txt        |
 |   **Haktrails**  |      Website & Subdomain Recon     |                              cat domains.txt \| haktrails subdomains                              |
-
+|DNS Recon         | Website & DNS Recon                | dnsrecon -d \<URL>                                                                                | 
 #### Website footprinting tools
 
 Netcraft
