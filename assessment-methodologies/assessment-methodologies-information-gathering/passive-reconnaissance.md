@@ -6,10 +6,7 @@ In this process, you will not be directly connected to a computer system. This p
 
 ### Website Recon & Footprinting
 
-
-<h3>Tools and Websites :</h3>
-
-
+### Tools and Websites :
 
 |  Tool & Website  |              Used for              |                                               usage                                               |
 | :--------------: | :--------------------------------: | :-----------------------------------------------------------------------------------------------: |
@@ -23,37 +20,31 @@ In this process, you will not be directly connected to a computer system. This p
 |  **Reverse DNS** |      Reverse IP address to DNS     |                    website \[[link](https://mxtoolbox.com/ReverseLookup.aspx)]                    |
 |     **Whois**    |            Website Recon           |                    **whois** \<URL> - website \[[link](https://www.whois.com)]                    |
 |   **Netcraft**   |            Website Recon           |                            website \[[link](https://www.netcraft.com/)]                           |
-|  **DNSdumpster** |            Website Recon           |                    dnsdumpster \[-d] \<URL> \ OR website \[[link](https://dnsdumpster.com/)]                   |
-|   **Sublist3r**  |           Subdomain Recon          |                                        sublist3r \[-d] \<URL>                                        |
-|    **wafw00f**   | Website Application Firewall Recon |                                   wafw00f \<URL>\[ -a ] \[ --findall ]                                  |
-|   **SubFinder**  |           Subdomain Recon          |                                            subfinder \[-d] <URL>                                     |
+|  **DNSdumpster** |            Website Recon           |             dnsdumpster \[-d] \<URL> \ OR website \[[link](https://dnsdumpster.com/)]             |
+|   **Sublist3r**  |           Subdomain Recon          |                                       sublist3r \[-d] \<URL>                                      |
+|    **wafw00f**   | Website Application Firewall Recon |                                wafw00f \<URL>\[ -a ] \[ --findall ]                               |
+|   **SubFinder**  |           Subdomain Recon          |                                          subfinder \[-d]                                          |
 |     **AMASS**    |      Website & Subdomain Recon     | Massive Tool Tutorial \[[link](https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md)] |
-|   **SubBrute**   |           Subdomain & DNS          |                                       python3 subbrute.py \[-o]                                      |
-|     **Knock**    |           Subdomain Recon          |                                         python3 knockpy.py  <URL>                                      |
-|    **AltDNS**    |           Subdomain Recon          |         altdns \[-i] \<subdomains.txt> \[-o] data\_output \[-w] words.txt \[-r] \[-s] results\_output.txt        |
+|   **SubBrute**   |           Subdomain & DNS          |                                     python3 subbrute.py \[-o]                                     |
+|     **Knock**    |           Subdomain Recon          |                                         python3 knockpy.py                                        |
+|    **AltDNS**    |           Subdomain Recon          | altdns \[-i] \<subdomains.txt> \[-o] data\_output \[-w] words.txt \[-r] \[-s] results\_output.txt |
 |   **Haktrails**  |      Website & Subdomain Recon     |                              cat domains.txt \| haktrails subdomains                              |
-|DNS Recon         | Website & DNS Recon                | dnsrecon \[-d] \<URL>                                                                                | 
-#### Website footprinting tools
+|     DNS Recon    |         Website & DNS Recon        |                                       dnsrecon \[-d] \<URL>                                       |
 
+Website footprinting tools\
+\
 Netcraft
+--------
 
-> **Netcraft** - provides internet security services for a large number of use cases, including cybercrime detection and disruption, application testing and PCI scanning. ![](<../../.gitbook/assets/Pasted image 20230415162847.png>)
+* **Netcraft** - provides internet security services for a large number of use cases, including cybercrime detection and disruption, application testing and PCI scanning. ![](<../../.gitbook/assets/Pasted image 20230415162847.png>)
+* **DNSdumpster**: is an online passive scanning tool to obtain information about domains, block addresses, emails, and all kind of information DNS related.
 
-***
-
-> **DNSdumpster**: is an online passive scanning tool to obtain information about domains, block addresses, emails, and all kind of information DNS related.
->
-> \
-> **Tool** :
-
-***
-
-> **Website :**
+**Website :**
 
 ![](<../../.gitbook/assets/Pasted image 20230415200917 (1).png>)
 
-**Whois** :\
-is used to identifies who owns a domain and collect information about them like emails, addresses, especially if there don't activate the privacy protection
+* **Whois** :\
+  is used to identifies who owns a domain and collect information about them like emails, addresses, especially if there don't activate the privacy protection
 
 **website** :
 
@@ -63,32 +54,33 @@ is used to identifies who owns a domain and collect information about them like 
 \
 ![](<../../.gitbook/assets/image (1).png>)\\
 
-**WAF With wafw00f**
+* **WAF With wafw00f**
 
-* Check firewall behind the website! it can detect multiple firewall, very useful before using any scanning or foot printing tool\
-  \
-  ![](<../../.gitbook/assets/Pasted image 20230415174242.png>)
+Check firewall behind the website! it can detect multiple firewall, very useful before using any scanning or foot printing tool\
+\
+![](<../../.gitbook/assets/Pasted image 20230415174242.png>)
 
 ***
 
-\
-**SubFinder** :
+
+
+* **SubFinder** :
 
 is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. `subfinder` is built for doing one thing only - passive subdomain enumeration, and it does that very well.\
 \
 ![](../../.gitbook/assets/image.png)\\
 
-**Sublist3r**\
-is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.\
-\
-\
-![](<../../.gitbook/assets/image (1) (1).png>)
+* **Sublist3r**\
+  is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.\
+  \
+  \
+  ![](<../../.gitbook/assets/image (1) (1).png>)
 
-***
 
-**Google Dorks**
 
-> > Search Operators and Commands
+## **Google Dorks**
+
+Search Operators and Commands
 
 * **site**:ine.com # specfic a domain
 * **inurl**:admin # search specfic keyword in url
@@ -97,19 +89,13 @@ is a python tool designed to enumerate subdomains of websites using OSINT. It he
 * **filetype**:pdf # search by filetype
 * Hacking with Google Dorks https://www.exploit-db.com/google-hacking-database
 
-***
-
-> **WayBackMachine**: what is the Wayback Machine? The Internet Archive Wayback Machine is a service that allows people to visit archived versions of Web sites
->
-> >
-
-***
+**WayBackMachine**: what is the Wayback Machine? The Internet Archive Wayback Machine is a service that allows people to visit archived versions of Web sites
 
 #### Email Harvesting
 
-> **theHarvester** : a tool for gathering subdomain names, e-mail addresses, virtual hosts, open ports/ banners, and employee names from different public sources
->
-> >
+**theHarvester** : a tool for gathering subdomain names, e-mail addresses, virtual hosts, open ports/ banners, and employee names from different public sources
+
+
 
 ***
 
