@@ -1,4 +1,4 @@
-# 🔗 eJPTv2-notes
+# 🔗 eJPTv2-Notes
 
 <figure><img src=".gitbook/assets/ejpt.png" alt=""><figcaption></figcaption></figure>
 
