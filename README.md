@@ -6,6 +6,9 @@ It's my eJPTv2 personal note-taking, based on INE PTSv2 course, and some resourc
 
 
 
+< still updating > 
+
+
 # Table of contents
 
 * [🔗 eJPTv2-notes](README.md)
